@@ -1,0 +1,21 @@
+body{background-color: #eee;}
+.jd_tophead{height: 45px; background: url('../image/header-bg.png') repeat-x; background-size: 1px 45px; }
+.top_bar [class^="icon_"]{display: block; width: 44px; height: 44px; padding: 12px 14px; position:absolute; top: 0; background-origin: content-box; background-clip: content-box; }
+.top_bar .icon_back{left: 0; background-position: -20px 0; }
+.top_bar .icon_menu{right: 0; background-position: -60px 0; }
+.top_bar span{font-size: 17px;text-align: center;height: 45px;line-height: 45px;display: block;}
+.anquan{width: 100%;background-color: #fff;text-align: center;}
+.anquan span{
+    display:inline-block;
+    background: url('../image/safe_icon.png') no-repeat;
+    width: 18px;
+    height: 18px;
+    /* line-height: 39px; */
+    background-size:cover;
+    margin-top: 10px;
+}
+.anquan p{
+    display: inline-block;
+    text-align: center;
+    padding: 7px 0;
+}
