@@ -11,19 +11,8 @@ body{background-color: #f5f5f5;}
 .jd_head{position: fixed;top:0;left:0;height: 40px;width: 100%;z-index: 99;}
 .jd_head .head_box{min-width: 300px; max-width: 640px; margin: 0 auto; position: relative; height: 40px;background: rgba(201,21,35,0);}
 .head_box .icon_logo{position: absolute; background-position: 0 -103px; left: 0; top: 4px; width: 60px; height: 36px; }
-.jd_head .head_box .jd_login{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width: 50px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-}
-.jd_head .head_box form{width: 100%; padding-left: 75px; padding-right: 55px; height: 40px; }
-.jd_head .head_box input{width: 100%; height: 30px; line-height: 30px; border-radius: 25px; padding-left: 30px; margin-top: 5px;}
+.jd_head .head_box .jd_login{position: absolute; right: 0px; top: 0px; width: 50px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 15px; } .jd_head .head_box form{width: 100%; padding-left: 75px; padding-right: 55px; height: 40px; }
+.jd_head .head_box input{width: 100%;line-height: 13px; border-radius: 25px; padding:8px 5px 8px 30px; margin-top: 5px;font-size: 13px;}
 .jd_head .head_box .icon_search{width: 20px; height: 20px; background-position: -60px -109px; position: absolute; top: 10px; left: 80px; }
 /*轮播图*/
 .jd_banner{width: 100%; position: relative; overflow: hidden; }
