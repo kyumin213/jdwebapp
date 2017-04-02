@@ -1,12 +1,13 @@
-body{background-color: #f5f5f5;}
+html{font-size: 20px;}
+body{background-color: #f5f5f5;font-size: 0.7rem;}
 /*头部*/
 .jd_layout{min-width: 300px;/*适配小屏幕，保持布局正常*/ max-width: 640px;/*设计图一般为640，防止图片拉伸*/ margin: 0 auto; height: 1000px; }
 .jd_head{position: fixed;top:0;left:0;height: 40px;width: 100%;z-index: 99;}
 .jd_head .head_box{min-width: 300px; max-width: 640px; margin: 0 auto; position: relative; height: 40px;background: rgba(201,21,35,0);}
 .head_box .icon_logo{position: absolute; background-position: 0 -103px; left: 0; top: 4px; width: 60px; height: 36px; }
-.jd_head .head_box .jd_login{position: absolute; right: 0px; top: 0px; width: 50px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 15px; }
+.jd_head .head_box .jd_login{position: absolute; right: 0px; top: 0px; width: 50px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size:0.75rem; }
 .jd_head .head_box form{width: 100%; padding-left: 75px; padding-right: 55px;position: relative;}
-.jd_head .head_box input{width: 100%;border-radius: 25px;font-size: 12px;line-height:1.2rem;padding:0.35rem 0.1rem 0.35rem 2rem;margin-top: 5px;}
+.jd_head .head_box input{width: 100%;border-radius: 25px;font-size: 0.6rem;margin-top: 5px;padding:0.4rem 0 0.4rem 1.5rem;line-height: 0.6rem;}
 .jd_head .head_box .icon_search{width: 20px; height: 20px; background-position: -60px -109px; position: absolute; top: 10px; left: 80px; }
 /*轮播图*/
 .jd_banner{width: 100%; position: relative; overflow: hidden; }
@@ -30,25 +31,22 @@ body{background-color: #f5f5f5;}
     border-radius: 3px;
     margin-left: 10px;
 }
-.jd_banner ul:nth-child(2) li.on{
-    background: #fff;
-}
-.jd_banner ul:nth-child(2) li:first-child{
-    margin-left: 0;
-}
-/*导航*/
-.jd_nav{width: 100%; border-bottom: 1px solid #efefef; }
+
+.jd_banner ul:nth-child(2) li.on{background: #fff; }
+.jd_banner ul:nth-child(2) li:first-child{margin-left: 0; }
+ /*导航*/
+.jd_nav{width: 100%; border-bottom: 1px solid #efefef;}
 .jd_nav ul li{width: 25%; float: left; padding-top: 10px; background-color: #fff; }
 .jd_nav ul li a{display: block; width: 100%; }
 .jd_nav ul li a img{display: block; width: 40px; height: 40px; margin: 0 auto; }
-.jd_nav ul li a p{padding:5px 0; font-size: 14px; text-align: center; }
+.jd_nav ul li a p{padding:5px 0;text-align: center; }
 /*主体盒子*/
 .product_box{margin-top: 10px; box-shadow: 0 0 1px 1px #e0e0e0; background: #fff;min-height: 100px;}
 .product_box .product_title{height: 32px; border-bottom: 1px solid #e0e0e0; line-height: 32px; }
 .product_box .product_title.no_bottom{border-bottom: none; }
 .product_box .product_icon{min-height: 100px; }
 .product_box .product_title h3{position: relative; margin-left: 10px; padding-left: 7px; font-weight: normal; }
-.product_box .product_title h3:before{content: ""; position: absolute; height: 12px; width: 3px; top: 10px; left: 0; background: #d8505c; }
+.product_box .product_title h3::before{content: ""; position: absolute; height: 12px; width: 3px; top: 10px; left: 0; background: #d8505c; }
 .product_box .product_title .sk_icon{
     background: url("../image/seckill-icon.png") no-repeat;
     background-size: 16px 20px;/*在一倍范围内没有影响*/
@@ -57,11 +55,11 @@ body{background-color: #f5f5f5;}
     float: left;
     margin-top: 6px;
 }
-.product_title .sk_name{font-size: 15px; color: #d8505c; float: left; }
+.product_title .sk_name{font-size:0.75rem; color: #d8505c; float: left; }
 .product_title .sk_time{float: left; margin-left: 10px; }
-.product_title .sk_time span{width: 16px; height: 15px; line-height: 15px; text-align: center; margin-left: 10px; background-color: #333; color: #fff; float: left; margin-top: 8px; margin-left: 3px; }
+.product_title .sk_time span{width: 16px; height: 15px; line-height: 15px; text-align: center; margin-left: 10px; background-color: #333; color: #fff; float: left; margin-top: 8px; margin-left: 3px;}
 .product_title .sk_time span:nth-child(3n){background:#fff; color: #333; width: 3px; }
-.ck_more{display: inline-block; width: 30px; height: 20px; margin-right: 10px; line-height: 20px; }
+.ck_more{display: inline-block; width: 30px; height: 20px; margin-right: 10px; line-height: 20px;}
 .product_icon .ck_product{width: 100%; text-align: center; padding:10px 0; }
 .product_icon .ck_product li{width: 33.333%; float: left; }
 .product_icon .ck_product li a{display: inline-block; width: 100%; border-right: 1px solid #e0e0e0; }
